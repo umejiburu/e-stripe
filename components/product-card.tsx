@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { Button } from './ui/button';
 
 interface Props {
-    product: Stripe.product;
+    product: Stripe.Product;
 }
 
 function ProductCard({product}: Props) { 
